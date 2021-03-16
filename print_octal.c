@@ -5,7 +5,7 @@
  * @l: va_list arguments from _printf
  * @f: pointer to the struct that determines
  * if a flag is passed to _printf
- * Description: the function calls convert() 
+ * Description: the function calls convert()
  * Return: the number of char printed
  */
 int print_octal(va_list l, flags_t *f)
