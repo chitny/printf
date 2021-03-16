@@ -9,24 +9,43 @@ Write your own printf function.
 # Files:
 
 _printf.c - simil printf function
+
 _putchar.c - putchar function, writes the character c to stdout
+
 _puts.c - puts function, prints a string to stdout
+
 converter.c - converts number and base into string
+
 get_flag.c - checks flags for _printf
+
 get_print.c - selects printing function passed to _printf
+
 holberton.h - header file with all the definitions
+
 print_address.c - prints address of input in hexa format
+
 print_bigS.c - Non printable characters (0 < ASCII value < 32 or >= 127)
+
 print_binary.c - prints a number in base 2
+
 print_char.c - prints a character
+
 print_hex.c - prints a number in hexadecimal base
+
 print_hex_big.c - prints a number in hexadecimal base
+
 print_nums.c - prints an integer
+
 print_octal.c - prints a number in base 8
+
 print_percent.c - prints a percent
+
 print_rev.c - function to prints the reversed string
+
 print_rot13.c - function to prints the rot13'ed string
+
 print_string.c - loops through a string and prints
+
 
   
 
