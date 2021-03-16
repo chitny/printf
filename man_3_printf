@@ -1,0 +1,43 @@
+.TH "_printf man"
+.SH NAME
+_printf
+
+.SH
+SYNOPSIS
+.B _printf("%option", ARGUMENT)
+
+.SH
+DESCRIPTION
+Print ARGUMENT(s) to stdout according to FORMAT
+
+.SH FORMAT SPECIFIERS
+.TP
+.B % - Prints a '%' symbol
+.TP
+.B s - Prints a String specifier
+.TP
+.B c - Prints a Character specifier
+.TP
+.B d, i - Prints a integer specifier, (takes an integer or a decimal)
+.TP
+.B b - Prints a binary specifer
+.TP
+.B u - Prints unsigned int specifer
+.TP
+.B o - Prints octal specifer
+.TP
+.B x - Prints hexadecimal lowercase
+.TP
+.B X - Prints hexadecimal uppercase
+.TP
+.B S - Pritns the string (Non printable characters (0 < ASCII value < 32 or >= 127))
+
+.SH SEE ALSO
+man printf (to see original printf and compare)
+
+.SH BUGS
+No known bugs
+
+.SH
+AUTHORS
+Ignacio Chitnisky and Clara Berriel for Holberton School

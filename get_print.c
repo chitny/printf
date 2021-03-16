@@ -4,7 +4,6 @@
  * get_print - selects printing function passed to _printf
  * @s: character that holds the conversion specifier
  * func_arr[] find a match between the specifier passed to _printf
- * and the first element of the struct
  * Return: a pointer to the matching printing function
  */
 int (*get_print(char s))(va_list, flags_t *)
