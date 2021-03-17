@@ -1,15 +1,15 @@
-.TH "_printf man"
+.TH man 3 "_printf man"
 .SH NAME
 _printf
-
+.sp
 .SH
 SYNOPSIS
 .B _printf("%option", ARGUMENT)
-
+.sp
 .SH
 DESCRIPTION
 Print ARGUMENT(s) to stdout according to FORMAT
-
+.sp
 .SH FORMAT SPECIFIERS
 .TP
 .B % - Prints a '%' symbol
@@ -31,13 +31,13 @@ Print ARGUMENT(s) to stdout according to FORMAT
 .B X - Prints hexadecimal uppercase
 .TP
 .B S - Pritns the string (Non printable characters (0 < ASCII value < 32 or >= 127))
-
+.sp
 .SH SEE ALSO
 man printf (to see original printf and compare)
-
+.sp
 .SH BUGS
 No known bugs
-
+.sp
 .SH
 AUTHORS
 Ignacio Chitnisky and Clara Berriel for Holberton School
